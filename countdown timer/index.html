@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive CountDown Timer⏱️</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="timer-container">
+        <h1>Countdown Timer ⏱️</h1>
+        <div class="timer-horizontal">
+            <div class="time-box">
+                <i class="fa-regular fa-clock"></i>
+                <span id="hours">00</span>
+                <p>Hours</p>
+            </div>
+            <div class="time-box">
+                <i class="fa-regular fa-clock"></i>
+                <span id="minutes">00</span>
+                <p>Minutes</p>
+            </div>
+            <div class="time-box">
+                <i class="fa-regular fa-clock"></i>
+                <span id="seconds">00</span>
+                <p>Seconds</p>
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="startBtn"><i class="fa-solid fa-play"></i> Start</button>
+            <button id="stopBtn"><i class="fa-solid fa-pause"></i> Stop</button>
+            <button id="resetBtn"><i class="fa-solid fa-rotate"></i> Reset</button>
+        </div>
+        
+
+    </div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
